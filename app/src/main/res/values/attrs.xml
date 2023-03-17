@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorDisabled" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_showShadow" format="boolean" />
+        <attr name="fab_shadowColor" format="color" />
+        <attr name="fab_shadowRadius" format="dimension" />
+        <attr name="fab_shadowXOffset" format="dimension" />
+        <attr name="fab_shadowYOffset" format="dimension" />
+        <attr name="fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="fab_showAnimation" format="reference" />
+        <attr name="fab_hideAnimation" format="reference" />
+        <attr name="fab_label" format="string" />
+        <attr name="fab_elevationCompat" format="dimension" />
+        <attr name="fab_progress_color" format="color" />
+        <attr name="fab_progress_backgroundColor" format="color" />
+        <attr name="fab_progress_indeterminate" format="boolean" />
+        <attr name="fab_progress_max" format="integer" />
+        <attr name="fab_progress" format="integer" />
+        <attr name="fab_progress_showBackground" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FloatingActionMenu">
+        <attr name="menu_showShadow" format="boolean" />
+        <attr name="menu_buttonSpacing" format="dimension" />
+        <attr name="menu_labels_margin" format="dimension" />
+        <attr name="menu_labels_showAnimation" format="reference" />
+        <attr name="menu_labels_hideAnimation" format="reference" />
+        <attr name="menu_labels_paddingTop" format="dimension" />
+        <attr name="menu_labels_paddingLeft" format="dimension" />
+        <attr name="menu_labels_paddingRight" format="dimension" />
+        <attr name="menu_labels_paddingBottom" format="dimension" />
+        <attr name="menu_labels_padding" format="dimension" />
+        <attr name="menu_labels_textColor" format="reference|color" />
+        <attr name="menu_labels_textSize" format="dimension" />
+        <attr name="menu_labels_cornerRadius" format="dimension" />
+        <attr name="menu_labels_showShadow" format="boolean" />
+        <attr name="menu_labels_colorNormal" format="color" />
+        <attr name="menu_labels_colorPressed" format="color" />
+        <attr name="menu_labels_colorRipple" format="color" />
+        <attr name="menu_labels_position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_animationDelayPerItem" format="integer" />
+        <attr name="menu_buttonToggleAnimation" format="reference" />
+        <attr name="menu_labels_singleLine" format="boolean" />
+        <attr name="menu_labels_ellipsize" format="enum">
+            <enum name="none" value="0" />
+            <enum name="start" value="1" />
+            <enum name="middle" value="2" />
+            <enum name="end" value="3" />
+            <enum name="marquee" value="4" />
+        </attr>
+        <attr name="menu_labels_maxLines" format="integer" />
+        <attr name="menu_fab_size" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+        <attr name="menu_labels_style" format="reference" />
+        <attr name="menu_labels_customFont" format="string" />
+        <attr name="menu_shadowColor" format="color" />
+        <attr name="menu_shadowRadius" format="dimension" />
+        <attr name="menu_shadowXOffset" format="dimension" />
+        <attr name="menu_shadowYOffset" format="dimension" />
+        <attr name="menu_colorNormal" format="color" />
+        <attr name="menu_colorPressed" format="color" />
+        <attr name="menu_colorRipple" format="color" />
+        <attr name="menu_openDirection" format="enum">
+            <enum name="up" value="0" />
+            <enum name="down" value="1" />
+        </attr>
+        <attr name="menu_backgroundColor" format="color" />
+        <attr name="menu_fab_label" format="string" />
+        <attr name="menu_fab_show_animation" format="reference" />
+        <attr name="menu_fab_hide_animation" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSpinner" tools:ignore="ResourceName">
+        <attr format="color" name="ms_arrow_tint"/>
+        <attr format="boolean" name="ms_hide_arrow"/>
+        <attr format="reference" name="ms_arrow_drawble"/>
+        <attr format="reference" name="ms_background_item_drawble"/>
+        <attr format="reference" name="ms_spinner_background"/>
+        <attr format="color" name="ms_background_color"/>
+        <attr format="color" name="ms_text_color"/>
+        <attr format="dimension" name="ms_dropdown_max_height"/>
+        <attr format="dimension" name="ms_dropdown_height">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr format="reference" name="ms_background_selector"/>
+        <attr format="dimension" name="ms_padding_top"/>
+        <attr format="dimension" name="ms_padding_left"/>
+        <attr format="dimension" name="ms_padding_bottom"/>
+        <attr format="dimension" name="ms_padding_right"/>
+        <attr format="dimension" name="ms_popup_padding_top"/>
+        <attr format="dimension" name="ms_popup_padding_left"/>
+        <attr format="dimension" name="ms_popup_padding_bottom"/>
+        <attr format="dimension" name="ms_popup_padding_right"/>
+        <attr format="string" name="ms_hint"/>
+        <attr format="color" name="ms_hint_color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarView">
+
+        <!-- The xml resource that is inflated and used as the day cell view, must be provided. -->
+        <attr name="cv_dayViewResource" format="reference" />
+
+        <!-- The xml resource that is inflated and used as a header for every month. -->
+        <attr name="cv_monthHeaderResource" format="reference" />
+
+        <!-- The xml resource that is inflated and used as a footer for every month. -->
+        <attr name="cv_monthFooterResource" format="reference" />
+
+        <!-- The maximum number of rows(1 to 6) to show on each month. If a month has a total of
+        6 rows and maxRowCount is set to 4, there will be two appearances of that month on the
+        calendar, the first one will show 4 rows and the second one will show the remaining 2 rows.
+        To show a week mode calendar, set this value to 1. -->
+        <attr name="cv_maxRowCount" format="integer" />
+
+        <!-- A ViewGroup which is instantiated and used as the background for each month.
+         This class must have a constructor which takes only a Context. You should
+         exclude the name and constructor of this class from code obfuscation if enabled. -->
+        <attr name="cv_monthViewClass" format="string" />
+
+        <!-- Determines if dates of a month should stay in its section or can flow into another month's section.
+         If true, a section can only contain dates belonging to that month, its inDates and outDates.
+         if false, the dates are added continuously, irrespective of month sections.
+
+         When this property is false, a few things behave slightly differently:
+         - If inDateStyle is either `allMonths` or `firstMonth`, only the first index will contain inDates.
+         - If outDateStyle is either `endOfRow` or `endOfGrid`, only the last index will contain outDates.
+         - If outDateStyle is `endOfGrid`, outDates are generated for the last index until it
+           satisfies the `maxRowCount` requirement. -->
+        <attr name="cv_hasBoundaries" format="boolean" />
+
+        <!--This determines the scroll direction of the the calendar. -->
+        <attr name="cv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <!-- Determines how outDates are generated for each month on the calendar.
+        If set to `endOfRow`, the calendar will generate outDates until
+        it reaches the first end of a row. This means that if a month has 6 rows,
+        it will display 6 rows and if a month has 5 rows, it will display 5 rows.
+        If set to `endOfGrid`, the calendar will generate outDates until
+        it reaches the end of a 6 x 7 grid. This means that all months will have 6 rows.
+        If set to `none`, no outDates will be generated. -->
+        <attr name="cv_outDateStyle" format="enum">
+            <enum name="endOfRow" value="0" />
+            <enum name="endOfGrid" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+        <!-- Determines how inDates are generated for each month on the calendar.
+         If set to `allMonths`, the calendar will generate inDates for all months.
+         If set to `firstMonth`, inDates will be generated for the first month only.
+         If set to `none`, inDates will not be generated, this means that there will be
+         no offset on any month. -->
+        <attr name="cv_inDateStyle" format="enum">
+            <enum name="allMonths" value="0" />
+            <enum name="firstMonth" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+
+        <!-- The scrolling behavior of the calendar. If `paged`, the calendar
+        will snap to the nearest month after a scroll or swipe action.
+        If `continuous`, the calendar scrolls normally. -->
+        <attr name="cv_scrollMode" format="enum">
+            <enum name="continuous" value="0" />
+            <enum name="paged" value="1" />
+        </attr>
+
+        <!-- The duration in milliseconds of the animation used to adjust the CalendarView's
+        height when `scrollMode` is `paged` and the CalendarView height is set to `wrap_content`.
+        The height change happens when the CalendarView scrolls to a month which has less or more
+        rows than the previous one. Default value is 200. To disable the animation, set this value to zero. -->
+        <attr name="cv_wrappedPageHeightAnimationDuration" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="VSACalendarPicker"/>
+</resources>

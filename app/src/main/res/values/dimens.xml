@@ -1,0 +1,4 @@
+<resources>
+    <!-- text size -->
+    <dimen name="text_size_16sp">16sp</dimen>
+</resources>

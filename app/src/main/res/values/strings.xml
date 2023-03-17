@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Core App</string>
+
+    <string name="common_next">Next</string>
+    <string name="common_close">Close</string>
+    <string name="common_ok">OK</string>
+    <string name="common_share">Share</string>
+    <string name="common_warning">Warning</string>
+    <string name="common_error">Error</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_success">Success</string>
+    <string name="common_save_data_success">Save data successful</string>
+    <string name="common_message_force_login">Login session expired, please login again!</string>
+    <string name="common_error_message_timeout">Movey request timeout. Please try again later</string>
+    <string name="common_error_message_general">Movey has encounter error. Please try again later</string>
+    <string name="common_no">No.</string>
+    <string name="common_product">Product</string>
+    <string name="common_serial">Serial</string>
+    <string name="common_choose">Choose</string>
+    <string name="common_field_empty">%s cannot be blank</string>
+
+    <!--    Sign in-->
+    <string name="sign_in_title">Sign in</string>
+    <string name="sign_in_description">Please sign in to continue.</string>
+    <string name="sign_in_not_have_account">Do not have an account?</string>
+    <string name="sign_in_register_here">Register here</string>
+    <string name="sign_in_forgot_password"><u>Forgot Password?</u></string>
+    <string name="sign_in_error_not_verified">Your account is not verified, please check your mailbox to finish registration progress.</string>
+    <string name="sign_in_error_user_invalid">The email is not correct</string>
+    <string name="sign_in_error_password_invalid">The password is not correct</string>
+    <string name="signup_title">Sign Up</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_username">Username</string>
+    <string name="forgot_pass_email">Your Email</string>
+    <string name="signup_username_empty">Username cannot be blank</string>
+    <string name="signup_email_empty">Email cannot be blank</string>
+    <string name="signup_email_invalid">Email invalidate</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_password_empty">Password cannot be blank</string>
+    <string name="signup_confirm_password">Confirm Password</string>
+    <string name="signup_confirm_password_empty">Confirm Password cannot be blank</string>
+    <string name="signup_confirm_password_incorrect">Confirm Password incorrect</string>
+    <string name="signup_you_have_account">You have an account?</string>
+    <string name="signup_sent_email_verify">You will receive an email verification in 2 – 10 minutes. Please check and finished registration process there.</string>
+    <string name="signup_device_not_matching">This device associated with other account.</string>
+    <string name="sign_up_error_message">There is an error during registration. Please try again later.</string>
+
+</resources>

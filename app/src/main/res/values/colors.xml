@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue3B</color>
+    <color name="colorPrimaryDark">@color/blue32</color>
+    <color name="colorAccent">@color/teal_200</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBackground">#EEEEEE</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+
+    <color name="colorBlack">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="black13">#131A22</color>
+    <color name="black32">#323232</color>
+
+    <color name="colorGray65">#38434E</color>
+    <color name="colorGray33">#333333</color>
+    <color name="colorGray4f">#4F4F4F</color>
+    <color name="colorGray75">#757677</color>
+    <color name="colorGray82">#828282</color>
+    <color name="colorGray98">#989BA3</color>
+    <color name="colorGrayBD">#BDBDBD</color>
+    <color name="colorGrayC0">#C0C2C2</color>
+    <color name="colorGrayBB">#BBC0CF</color>
+    <color name="colorGrayCF">#CFD4E1</color>
+    <color name="colorGrayD4">#D4DAEB</color>
+    <color name="colorGrayE5">#E5E5E5</color>
+    <color name="colorGrayE0">#E0E0E0</color>
+    <color name="colorGrayEC">#ECEDED</color>
+    <color name="colorGrayEA">#EAEEF6</color>
+    <color name="colorGrayE8">#E8ECF6</color>
+    <color name="colorGrayF5">#F5F7FC</color>
+    <color name="colorGrayF0">#F0F0F0</color>
+    <color name="colorGrayF9">#F9F9F9</color>
+    <color name="colorBlackSemiTransparent">#000000</color>
+
+    <color name="colorBlue04">#040D20</color>
+    <color name="colorBlue1B">#1B2538</color>
+    <color name="colorBlue18">#182B53</color>
+    <color name="colorBlue19">#19336B</color>
+    <color name="colorBlue80">#80182B53</color>
+    <color name="colorBlue33">#33182B53</color>
+    <color name="colorBlue38">#385388</color>
+    <color name="colorBlue42">#4267B2</color>
+    <color name="colorBlue2f">#2F80ED</color>
+    <color name="colorBlueFF0">#FF0180C7</color>
+    <color name="colorBlue5B">#5B86E5</color>
+    <color name="colorBlue2F">#2F80ED</color>
+    <color name="colorBlue2D">#2D9CDB</color>
+    <color name="colorBlueFF3">#FF32BFFC</color>
+    <color name="colorBlue34">#341E52C1</color>
+
+    <color name="colorIndicatorDefault">@color/colorGrayD4</color>
+    <color name="colorIndicatorSelected">@color/colorYellowEF</color>
+    <color name="colorButtonBlue">@color/colorBlue18</color>
+    <color name="colorButtonBluePressed">@color/colorBlue1B</color>
+    <color name="colorFloatBackground">#9935343D</color>
+    <color name="calendar_day_background">#F44336</color>
+    <color name="calendar_day_text">#313C47</color>
+    <color name="calendar_day_text_selected">#FFFFFF</color>
+    <color name="calendar_today_text">#00468C</color>
+    <color name="legendTextColor">#425466</color>
+    <color name="normal_color">#182B53</color>
+
+    <color name="colorYellowF2">#F2994A</color>
+    <color name="colorYellowEF">#EF9B42</color>
+    <color name="colorRedFB">#FB3F4A</color>
+    <color name="colorRedEC">#EC666E</color>
+
+
+    <color name="gray7C">#7C7C7C</color>
+    <color name="gray97">#979797</color>
+    <color name="grayC4">#C4C4C4</color>
+    <color name="grayEC">#FAF5F5</color>
+    <color name="grayE5">#E5E5E5</color>
+    <color name="grayF2">#F2F2F2</color>
+    <color name="grayFA">#FAFAFA</color>
+    <color name="grayF6">#F6F6F6</color>
+    <color name="grayB2">#1AB2B2B2</color>
+
+    <color name="blue0B">#0B6FFB</color>
+    <color name="blue32">#326A4A</color>
+    <color name="blue3B">#3BCF7B</color>
+    <color name="blue94">#94FF00</color>
+    <color name="blue89">#89EA03</color>
+    <color name="blue01">#01FFFF</color>
+    <color name="blue06">#06DDDD</color>
+    <color name="blueD6">#D6F8F8</color>
+    <color name="blue80D6">#80D6F8F8</color>
+
+    <color name="red">#FF624D</color>
+    <color name="blue">#0090FF</color>
+    <color name="blue_grey">#B8DBEE</color>
+    <color name="grey">#80C0D1D1</color>
+    <color name="green">#56CF3B</color>
+    <color name="yellow">#DDD200</color>
+    <color name="yellow_light">#FBFAD7</color>
+    <color name="hint">#E3E3E3</color>
+</resources>
